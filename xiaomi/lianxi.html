@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入重置样式表 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入字体图标库 -->
+    <link rel="stylesheet" href="./css/iconfont/iconfont.css">
+    <style>
+.outer{
+    height: 40px;
+    background-color: #333;
+    min-width: 1226px;
+}
+.inner{
+    width: 1226px;
+    line-height: 40px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.inner a{
+    text-decoration: none;
+   color: #b0b0b0;
+   
+}
+.inner ul .line{
+    color: #424242;
+    margin: 0 8px;
+}
+.inner .lefta li{
+    float: left;
+}
+.app{
+position: relative;
+}
+
+.inner .lefta .code{
+    position: absolute;
+    left: -40px;
+    overflow: hidden;
+    width: 124px;
+    height: 0;
+    text-align: center;
+    background-color: #fff;
+    line-height: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    transition: height 0.3s;
+}
+.app:hover .code{
+    display: block;
+    height: 148px;
+}
+.inner .lefta img{
+    width: 90px;
+    margin: 17px;
+    margin-bottom: 10px;
+ 
+}
+.inner .lefta span{
+    display: block;
+    font-size: 14px;
+   color:#000;
+   margin-bottom: 10px;
+}
+.inner .right1 li,
+.inner .right2{
+    float: right;
+}
+.inner .right2 a{
+    display: block;
+    width: 120px;
+   background-color:#424242;
+   text-align: center;
+   height: 40px;
+   
+}
+.inner .right2:hover a{
+    background-color:#fff;
+    color: orange;
+}
+.inner .right2 i{
+    font-size: 15px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <!-- 中部导航条 -->
+        <div class="inner">
+            <!-- 左侧导航条 -->
+            <ul class="lefta">
+                <li><a href="javascript:;s">小米商城</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;s">MIUI</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;s">IoT</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;s">云服务</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;s">金融</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;s">商品</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;s">小爱开放平台</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;s">企业团购</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;s">资质证照</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;s">协议规则</a></li>
+                <li class="line">|</li>
+                <li>
+                    <a class="app" href="javascript:;s">下载app
+                   <div class="code">
+                    <img src="./img/download.png" alt="">
+                    <span>小米商城app</span>
+                   </div>
+                </a>
+                
+                </li>
+                <li class="line">|</li>
+                <li><a href="javascript:;s">Selection Location</a></li>
+            </ul>
+            <!-- 右侧购物车 -->
+            <ul class="right2">
+                <li>
+                <a href="javascript:;s">
+                    <i class="iconfont">&#xe747;</i>
+                    购物车（0）
+                </a>
+            </li>
+            </ul>
+            <!-- 右侧导航条 -->
+            <ul class="right1">
+                <li class="line">|</li>
+                <li><a href="javascript:;s">消息通知</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;s">注册</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;s">登录</a></li>
+            </ul>
+            
+        </div>
+    </div>
+</body>
+</html>

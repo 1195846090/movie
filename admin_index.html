@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <style type="text/css" media="screen">
+        .icon-right{margin-right:10px;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="">
+                        <img src="images/logo.png" alt="" />
+                    </a>
+
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+
+                <div class="collapse navbar-collapse navbar-left">
+                    <ul class="nav navbar-nav">
+                        <li><a href=""><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;首页</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;动作电影</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-music"></span>&nbsp;&nbsp;科幻电影</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;恐怖电影</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-fire"></span>&nbsp;&nbsp;文艺电影</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-leaf"></span>&nbsp;&nbsp;日韩动漫</a></li>
+                    </ul>
+                </div>
+                <ul  class="nav navbar-nav navbar-right">
+                        <li><a>欢迎你,admin</a></li>
+                        <li><a>安全退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!--  section.container-fluid>div.row>(div.col-sm-2>ul.list-group>li.list-group-item*4>a{管理链接})+(div.col-sm-10) -->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2">
+                <ul class="list-group">
+                    <li class="list-group-item active">
+
+                            <span class="glyphicon glyphicon-home icon-right"></span>管理链接
+                    </li>
+                    <li class="list-group-item">
+                        <ul class="list-group">
+                            <a href="">
+                            <span class="glyphicon glyphicon-home icon-right"></span>管理链接</a>
+                            <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-leaf"></span>子链接</a></li>
+                            <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-leaf"></span>子链接</a></li>
+                            <li class="list-group-item"><a href=""><span class="glyphicon glyphicon-leaf"></span>子链接</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="">
+                            <span class="glyphicon glyphicon-home icon-right"></span>管理链接</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="">
+                            <span class="glyphicon glyphicon-home icon-right"></span>管理链接</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-10">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Link</a>
+                    </li>
+                    <li class="active">Current</li>
+                </ol>
+
+                <!-- div.panel.panel-default>div.panel-heading{搜素}+div.panel-body -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">搜素</div>
+                    <div class="panel-body">
+                        <form action="" class="form-inline">
+                            <div class="form-group">
+                                <label for="">名称：</label><input type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label for="">名称：</label>
+                                <select name="" id="" class="form-control">
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-default">搜索</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+                <!-- div.table-responsive>table.table.table-striped>(thead>tr>th*7)+(tbody>tr>td*7) -->
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>标题</th>
+                                <th>标题</th>
+                                <th>标题</th>
+                                <th>标题</th>
+                                <th>标题</th>
+                                <th>标题</th>
+                                <th>标题</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><img src="images/logo.png" alt="index-素材.html" class="img-thumbnail" /></td>
+                                <td>18.0$</td>
+                                <td>20.2$</td>
+                                <td>超人气无花果</td>
+                                <td>上架</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button class="btn btn-default">上架</button>
+                                        <button class="btn btn-warning">修改</button>
+                                        <button class="btn btn-danger">删除</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

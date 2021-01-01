@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1607484046347'); /* IE9 */
+  src: url('iconfont.eot?t=1607484046347#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPYAAsAAAAACAAAAAOLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDFAqDSIMaATYCJAMQCwoABCAFhG0HQRv9BlGUDkqK7OeB7TZlEKoFYlHDlMZTiHGwIdxffKNHkI2Rs3f7iAoUouf4V8wlY6vQyMZXVol6lrg1XVvYRuU8W6LWVNN35Nudv3xY55EojVIICcIxvN7by6tfSnFj+gtyEzwJSDtRd9Otl8S3p/d5Lqe38gDnt7Ncxlo+Jt3wo16AcUABjrkpDbCAAuOGsZsoD2I1gVYjWuxt+93RqkugUyCeRYWuVU8FZY0wNAuNJSNTvAUNmstreIQ3/Pvxy3I0UzRUoOfO7TywRl9/v6HLprIdUwKYxotDG0fFLEsS56XJQ6UwP6uk1VmsbJ6lUQrl6583FMWYBh5knab1//GKSjQC/HawKjrqWZkwS/A1lsJXPBVehrtZLH7AJ1k29LoGoXTTZx/9QAsJxpSBZSHYvIRYS1cwupxVhSBWyOYBEBZRtgxg9pIswnA6VoCwtlXci71NBsCnlUbU+Bz5N1DpEshWajCSm5cb4VvOvrLlBQjjJ80XtPlpfB1KI2WXWI5y44I8P6m8guWMji4qCGAx19fE1ZU7IoeP4QClMvjNDY1UDQW6ME7gQJzJgurWQQSuI0KI6ogSIjpj7hYE4FvUW15bfl458mjLaD3Rt/BbRBXeAkie2jA01iZa6f7lAToypJiI1G+PU2DH2F1GsgNxommvb4tvh7QkJOjt2Hj+B420PEXZtIXP0ldLEX0ZbUHms9sdTWtA3TfQbW/TNUAd1ZFd6IqRm7OD5eG0pZ+tex5iSmfo6IEZMKu3N0uwQVEnOiwbtYhus+zutrTpwStgrboLSSgf4RnUc/jwM3/jv5b/CuAw/deMJ/hySCX3p3ZcmhVam36dqWVZuhYQyrSt2OitlNZUQEGrVvwyMfT6jeEeaM0nNBuIUTQZRtVslEzZLBq0WUWjZmtoNWM5vk0fVhLZgmlPAaHbG0Wnz6i6fciUfdFg0B+NuqOi1W7wzNhmPB6QTTK6ggF4D4h9KhSKSDMQ7jG8ZC4nLVxxRjZxCvrqmtnSEgvkMfqYazgQUaCYclgI62GWEWimBH3pRCJ62NUIL3tSx6fcatrCkEugAPA8gJiPFBStLpq5z++h0EXGxTWSjvYZYkZcP+jr6LUgl86ileRazjGuQgNCKEBhJAcWQhxlME+ALm+WQD7REfXIakNdqZJq6+zM786fcA20AvNklKiR0SCvEvSjGpqQ3U6DWmSUEeKHZQEA') format('woff2'),
+  url('iconfont.woff?t=1607484046347') format('woff'),
+  url('iconfont.ttf?t=1607484046347') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1607484046347#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-copy:before {
+  content: "\e6f3";
+}
+
+.icon-dollar:before {
+  content: "\e6f4";
+}
+
+.icon-history:before {
+  content: "\e6f8";
+}
+
